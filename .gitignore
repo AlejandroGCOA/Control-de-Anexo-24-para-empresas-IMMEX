@@ -1,0 +1,28 @@
+# Variables de entorno
+.env
+.env.*
+!.env.example
+
+# Dependencias y compilación
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+dist/
+build/
+.next/
+
+# Pruebas y logs
+coverage/
+.pytest_cache/
+playwright-report/
+test-results/
+*.log
+
+# Datos locales
+data/local/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
